@@ -1,0 +1,7 @@
+* [Главная](README.md)
+* [Начало работы](getting-started/README.md)
+  * [Авторизация](getting-started/authorization.md)
+  * [Сканирование](getting-started/scanning.md)
+* [Основные функции](features/README.md)
+  * [Карточка позиции](features/inventory.md)
+  * [Работа без связи](features/offline.md)
