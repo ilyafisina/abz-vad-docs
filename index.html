@@ -9,12 +9,15 @@
 <body>
   <div id="app"></div>
   <script>
-    window.$docsify = {
-      name: 'АБЗ-ВАД',
-      loadSidebar: true,
-      // Эта настройка важна для корректной работы путей
-      relativePath: false 
-    }
+        window.$docsify = {
+        name: 'АБЗ-ВАД',
+        loadSidebar: true,
+        alias: {
+            '/.*/README.md': '/$1README.md', 
+            '/getting-started/': '/getting-started/README.md',
+            '/features/': '/features/README.md'
+            }
+        }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 </body>
